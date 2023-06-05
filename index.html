@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toandro</title>
+</head>
+<body>
+    <style>
+        body{
+            color: #333;
+        }
+        .a4{
+            width: 1020px;
+            height: 2160px;
+            background-color: rgb(209, 200, 200);;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin: auto;
+            border: solid black;
+        }
+        .sary{
+            text-align: center;
+        }
+        .sary h1{
+            color: #333;
+        }
+        img.tete{
+            width: 200px;
+            height: 200px;
+            border:solid 5px rgb(37, 139, 37);
+            border-radius: 50%;
+        }
+        th{
+            border: dashed 2px rgb(37, 139, 37);
+        }
+        td{
+            border: dotted 2px rgb(37, 139, 37);
+        }
+        .annee{
+            width: 150px;
+            height: 60px;
+            text-align: center;
+        }
+        .cursus{
+            width: 550px;
+            height: 60px;
+            padding-left: 20px;
+        }
+        .competence{
+            display: flex;
+            
+        }
+        .competence li{
+            list-style: none;
+        }
+        .bar{
+            display: flex;
+            width: 460px;
+            height: 10px;
+            background: #333;
+        }
+        .html,.css,.javascript,.C,.bureautique,.python{
+            display: flex;
+            height:10px ;
+            background:rgb(37, 139, 37);
+        }
+        .html{
+            width: 160px;
+        }
+        .css{
+            width: 150px;
+        }
+        .javascript{
+            width: 118px;
+        }
+        .C{
+            width: 250px;
+        }
+        .bureautique{
+            width: 220px;
+         }
+        .python{
+            width: 50px;
+         }
+        img.cv{
+            width: 50px;
+            height: 50px;
+            border: solid;
+            border-radius:  50%;
+        }
+        td.nom_cv{
+            width: 550px;
+            padding-left: 20px;
+        }
+        h1{
+            color: rgb(37, 139, 37);
+        }
+    </style>
+    <div class="a4">
+        <div class="sary">
+            <img class="tete" src="zah.jpg" alt="Toandro">
+            <h1>Etudiant</h1>
+        </div>
+    
+        <div class="profil" id = profil>
+            <h1>Profil</h1>
+            <ul>
+                <li><strong>Nom et prénom: </strong>MAHASALOTRA Toandromananjara</li>
+                <li><strong>Date et lieu de Naissance: </strong> 10 Septembre 2001 à Soavinandriana (HOMI)</li>
+                <li><strong>Adresse: </strong> Lot II H 2G EAD Nanisana Iadiambola</li>
+                <li><strong>Telephone: </strong> 034 03 121 63</li>
+                <li><strong>Email: </strong> mahasalotra@gmail.com</li>
+                <li><strong>Facebook: </strong> Toandro Mananjara</li>
+            </ul> 
+        </div>
+    
+        <div class="education" id="education">
+            <h1>Educations</h1>
+            <table>
+                <thead>
+                    <th>Annee</th>
+                    <th>Cursus</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="annee">2023</td>
+                        <td class="cursus"><strong>Digital Trainning Center</strong>  <br>
+                             Formation en developpement web en cours. </td>
+                    </tr>
+                    <tr>
+                        <td class="annee">2022-2023</td>
+                        <td class="cursus"><strong>Université d'Antananarivo</strong> <br>
+                            3eme annee de licence en Mathematiques et Informatique.</td>
+                        
+                    </tr>
+                    <tr>
+                        <td class="annee">2020-2022</td>
+                        <td class="cursus"><strong>Université d'Antananarivo</strong> <br>
+                            2eme annee de licence en Mathematiques et Informatique.</td>
+                    </tr>
+                    <tr>
+                        <td class="annee">2019-2020</td>
+                        <td class="cursus"><strong>Université d'Antananarivo</strong> <br>
+                            1ere annee de licence en Mathematiques et Informatique</td>
+                    </tr>
+                    <tr>
+                        <td class="annee">2018</td>
+                        <td class="cursus"><strong>Lycee Nanisana</strong> <br>Baccalaureat serie C.</td>
+                    </tr>   
+                </tbody>
+            </table>
+        </div>
+    
+        <div class="" id="competence">
+            <h1>Compétences</h1>
+            <h3>Technologie</h3>
+            <div class="competence">
+                
+                <div>
+                    <ul>
+                        <li>
+                            <h3>Html</h3>
+                            <span class="bar"><span class="html"></span></span>
+                        </li>
+                        <li>
+                            <h3>Css</h3>
+                            <span class="bar"><span class="css"></span></span>
+                        </li>
+                        <li>
+                            <h3>Javascript</h3>
+                            <span class="bar"><span class="javascript"></span></span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div >
+                    <ul >
+                        <li>
+                            <h3>C</h3>
+                            <span class="bar"><span class="C"></span></span>
+                        </li>
+                        <li>
+                            <h3>Bureautique</h3>
+                            <span class="bar"><span class="bureautique"></span></span>
+                        </li>
+                        <li>
+                            <h3>Python</h3>
+                            <span class="bar"><span class="python"></span></span>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            <h3>Langues</h3>
+            <ul>
+                <li>Malagasy (Langue maternelle)</li>
+                <li>Français (courante)</li>
+                <li>Anglais (intermediaire)</li>
+            </ul>
+        </div>
+    
+        <div class="experience" id="experience">
+            <h1>Experiences</h1>
+            <table>
+                <thead>
+    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="annee">2021-2023</td>
+                        <td class="cursus"><strong>Chargé de cours particulier</strong> <br>
+                            Cours particulier pour les classes secondaires première C et terminale ose. </td>
+                    </tr>
+                    <tr>
+                        <td class="annee">2020-2023</td>
+                        <td class="cursus"><strong>Proprietaire de boutique en ligne</strong> <br>
+                            Magasin en ligne spécialisé dans la vente de cordes et accessoires de guitare.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="annee">2020-2023</td>
+                        <td class="cursus"><strong>Membre de Staff de l'ecole de foot JSEM Nanisana</strong> <br>
+                            Responsable de developpement de joueur et conseiller.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <div class="centre_d_interet" id="centre_d_interet">
+            <h1>Centre d'interets</h1>
+            <ul>
+                <li>Football</li>
+                <li>Basketball</li>
+                <li>Guitare</li>
+                <li>Jeux videos</li>
+             </ul>
+        </div>
+    
+        <div class="autre_cv">
+            <h3>Voici d'autres CV que vous pouvez visiter:</h3>
+            <table>
+                <thead>
+                    <th>lien sur l'image</th>
+                    <th>Son nom</th>
+                </thead>
+                <tbody>
+                    <tr >
+                        <td class="annee"><a href="alain_marnier.html" target="_blank"><img class="cv" src="maxim.jpg" alt="Maxim"></a></td>
+                        <td class="nom_cv">Alain Marnier Graphiste</td>
+                    </tr>
+                    <tr>
+                        <td class="annee"><a href="henrietta_mitchell.html" target="_blank"><img class="cv" src="sandra.jpeg" alt="Sandra"></a></td>
+                        <td class="nom_cv">Henrietta Mitchell etudiante en medicine</td>
+                    </tr>
+                    <tr>
+                        <td class="annee"><a href="benjamin_clavel.html" target="_blank"><img class="cv" src="jules.jpg" alt="Jules"></a></td>
+                        <td class="nom_cv">BEJAMIN Clavel Photographe</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
